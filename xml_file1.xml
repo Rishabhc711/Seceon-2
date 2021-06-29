@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.23721/100/1504316</identifier>
+  <creators>
+    <creator>
+      <creatorName>External Data Source</creatorName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Microsoft Malware Classification Challenge (BIG 2015)</title>
+  </titles>
+  <publisher>IMPACT</publisher>
+  <publicationYear>2018</publicationYear>
+  <language>en</language>
+  <subjects>
+    <subject>malware, microsoft, microsoft malware classification challenge (big 2015), challenge, classification, 1274, 2015, source, inferlink corporation, external data source, external, inferlink, corporation, dataset, files, family, generated, affiliations, respective, task, classifying, tool, develop, disassembler, mechanism, test, ida, file, binary, representing, metadata, kelihos, mix, tracur, class, gatak, hexadecimal, belong, manifest, families, uniquely, consists, calls, vundo, names, pe, header, sterility, integer, extracted, simda, character, acy, function, ensure, raw, ramnit, ver1, hash, identifying, other, log, ver3, lollipop, representation, content, obfuscator, strings</subject>
+  </subjects>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="IAD ID">1504316</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Site ID">1274</alternateIdentifier>
+  </alternateIdentifiers>
+  <resourceType resourceTypeGeneral="Dataset">This dataset was generated using the IDA disassembler tool. The task is to develop the best mechanism for classifying files in the test set into their respective family affiliations.</resourceType>
+  <descriptions>
+    <description descriptionType="Abstract">For each file, the raw data contains the hexadecimal representation of the file's binary content, without the PE header (to ensure sterility).  Also provided is a metadata manifest, which is a log containing various metadata information extracted from the binary, such as function calls, strings, etc.
+
+The dataset consists of known malware files representing a mix of 9 different families. Each malware file has an Id, a 20 character hash value uniquely identifying the file, and a Class, an integer representing one of 9 family names to which the malware may belong:
+
+Ramnit
+Lollipop
+Kelihos_ver3
+Vundo
+Simda
+Tracur
+Kelihos_ver1
+Obfuscator.ACY
+Gatak</description>
+  </descriptions>
+</resource>
